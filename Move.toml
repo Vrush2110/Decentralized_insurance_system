@@ -1,0 +1,15 @@
+[package]
+name = "decentralized_insurance_system"
+version = "1.0.0"
+authors = []
+
+[addresses]
+DecentralizedInsuranceSystem = '0xec1ad262d9bc80e6cf0981ceb1e02ddc490d472ee83deb362099f777c84c58c4'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
